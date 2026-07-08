@@ -28,6 +28,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 2rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -41,6 +42,17 @@ body {
   margin: 10px;
   -webkit-box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.pizza-container .item-box div{
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  
+  overflow: hidden;
+  width: fit-content;
+  height: 80px;
+  border: 1px solid #a89e9e;
+  box-shadow: 1px 1px 1px #a89e9e;
 }
 
 .pizza-container .main-box {
